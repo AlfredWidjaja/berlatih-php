@@ -1,0 +1,9 @@
+<?php
+    require ("Ape.php");
+    class Frog extends Animal{
+        protected $legs = 4;
+        public function jump(){
+            echo "hop hop <br />";
+        }
+    }
+?>
